@@ -38,6 +38,8 @@ dependencies:
   http: ^1.2.2
 
 dev_dependencies:
+  flutter_native_splash: ^2.2.19
+  flutter_launcher_icons: ^0.13.1
   flutter_test:
     sdk: flutter
 
@@ -89,3 +91,14 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+flutter_native_splash:
+  color: "#ffffff" # Cambia el color de fondo al que prefieras
+  image: assets/img.jpg # Ruta de tu imagen para el splash
+  android: true
+  ios: true
+  web: false
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: assets/img.jpg
